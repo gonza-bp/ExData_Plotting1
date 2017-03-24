@@ -1,4 +1,3 @@
-selectedData<-read.csv("selectedData.csv")
 png(filename= "plot3.png",width=480, height=480)
 
 plot(selectedData$TimeStamp,selectedData$Sub_metering_1,ylab= "Energy sub metering",xlab="",type="l")
